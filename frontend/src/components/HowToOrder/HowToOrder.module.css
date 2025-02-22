@@ -1,0 +1,58 @@
+.howToOrder {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.howToOrder h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.stepsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stepCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.stepCard:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 40px;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.stepCard h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.stepCard p {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .stepsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stepCard {
+    width: 90%;
+  }
+}

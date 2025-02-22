@@ -1,0 +1,63 @@
+.orderFormContainer {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.orderForm label {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.orderForm input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.orderForm input:focus {
+  border-color: #28a745;
+}
+
+.errorInput {
+  border-color: red !important;
+}
+
+.errorText {
+  color: red;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.submitButton {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background: #218838;
+}

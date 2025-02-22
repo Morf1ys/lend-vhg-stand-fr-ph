@@ -1,0 +1,33 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.scrollToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scrollToTop:hover {
+  background: #218838;
+}
+
+.icon {
+  font-size: 20px;
+}
