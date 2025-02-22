@@ -3,42 +3,41 @@ import styles from "./Reviews.module.css";
 import { FaStar } from "react-icons/fa";
 
 const reviews = [
-{
+  {
     id: 1,
     name: "Олена М.",
     text: "Дуже зручний! Кріплення міцне, легко встановлюється. Товаром задоволена!",
     rating: 5,
-    img: "/public/assets/208580_2_trinixy_ru.jpg",
+    img: "/assets/208580_2_trinixy_ru.jpg",
   },
   {
     id: 2,
     name: "Андрій К.",
     text: "Чудовий тримач! Використовую на велосипеді, навіть по нерівній дорозі телефон не випадає.",
     rating: 5,
-    img: "/public/assets/depositphotos_189897952-stock-photo-athletic-guy-biker-cycling-clothes.jpg", 
+    img: "/assets/depositphotos_189897952-stock-photo-athletic-guy-biker-cycling-clothes.jpg",
   },
-  
   {
     id: 3,
     name: "Максим П.",
     text: "Користуюсь тиждень, все супер. Тримає телефон надійно, навіть під час дощу!",
     rating: 4,
-    img: "/public/assets/мо-о-ой-парень-на-ве-осипе-е-31523339.webp",
-    },
-    {
-  id: 4,
-  name: "Наталія В.",
-  text: "Гарна якість за свою ціну. Зручно встановлюється, не залишає подряпин на кермі.",
-  rating: 5,
-  img: "/public/assets/240x_zh_3_1sayt.jpg"
-    },
-    {
-  id: 4,
-  name: "Олена С.",
-  text: "Дуже зручний тримач! Телефон не хитається, легко кріпиться та регулюється.",
-  rating: 5,
-  img: "/public/assets/800xdsc03113.jpg"
-},
+    img: "/assets/12e2ed93abeff93c6bc7f920a76a5c63.jpg",
+  },
+  {
+    id: 4,
+    name: "Наталія В.",
+    text: "Гарна якість за свою ціну. Зручно встановлюється, не залишає подряпин на кермі.",
+    rating: 5,
+    img: "/assets/240x_zh_3_1sayt.jpg",
+  },
+  {
+    id: 5, 
+    name: "Олена С.",
+    text: "Дуже зручний тримач! Телефон не хитається, легко кріпиться та регулюється.",
+    rating: 5,
+    img: "/assets/800xdsc03113.jpg",
+  },
 ];
 
 export default function Reviews() {
